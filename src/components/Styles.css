@@ -1,0 +1,87 @@
+
+
+
+
+
+footer{
+  margin-top: 50px;
+}
+.bg-footer {
+  background-color: #beb7e5;
+  padding: 50px 0 30px;
+}
+.footer-heading {
+  letter-spacing: 2px;
+  
+}
+.footer-link a {
+  color: #2e1f7a;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  color: #d6492f;
+}
+
+.contact-info {
+  color: #000;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.apple {
+  background-color: #424041;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.footer-alt {
+  color: #000;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+  color: #000 !important;
+}
+
+.footer-heading:after {
+  content: "";
+  width: 25px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #2e1f7a;
+}
